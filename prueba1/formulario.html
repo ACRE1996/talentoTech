@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=form, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="./img/feria3.avif" alt="Imagen cabecera de la feria" width="1330" height="250">
+    <a href="index.html">Volver</a>
+    <form action="index.html" method="POST">
+        Nombre: <input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre" required><br><br>
+        Edad: <input type="number" name="edad" id="edad" placeholder="Ingrese edad" required><br><br>
+        Email: <input type="email" name="email" id="email" placeholder="Ingrese email" required><br><br>
+        Contraseña: <input type="password" name="pass" id="pass" placeholder="Ingrese contraseña" required><br><br>
+
+        Genero
+        <select name="genero" id="genero">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+        </select><br><br>
+
+        <input type="checkbox" name="auto" id="auto">Acepto terminos y condiciones <br><br>
+
+        <fieldset>
+            <legend>Informacion de pago</legend>
+            <input type="radio" name="pago" id="efectivo"> Efectivo
+            <input type="radio" name="pago" id="tarjeta"> Tarjeta
+        </fieldset><br><br>
+
+        Fecha de nacimiento: <input type="date" name="fecha" id="fecha"><br><br>
+
+        Seleccione la imagen: <input type="file" name="imagen" id="imagen" accept="image/*"><br><br>
+
+        Observaciones: <textarea name="observaciones" id="observaciones" cols="30" rows="10" placeholder="Observaciones"></textarea><br><br>
+
+        <input type="submit" value="ENVIAR">
+    </form>
+</body>
+</html>

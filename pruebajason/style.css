@@ -1,0 +1,53 @@
+body{
+    background-color: bisque;
+    display: block;
+}
+.contenedorH1{
+    text-align: center;
+}
+
+.textoBuscar{
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+table, tr, td{
+    border: 1px solid black;
+    text-align: center;
+    background-color: coral;
+}
+
+th{
+    font-size: 30px;
+}
+
+main{
+    justify-items: center;
+}
+
+.contenedorBotones{
+    justify-content: center;
+    display: flex;
+}
+
+.contenedorInput{
+    margin: 30px;
+}
+
+.contenedorBoton{
+    text-align: center;
+    padding-top: 10px;
+    background-color: brown;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 1);
+    width:50%;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

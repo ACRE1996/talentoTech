@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <script src="jasonjs.js">
+    </script>
+
+    <header>
+        <div class="contenedorH1">
+            <h1>CONSULTA JASON EN UNA TABLA</h1>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="contenedorInput">
+            <input type="text" class="textoBuscar" id="textoBuscar" placeholder="Ingrese la palabra a buscar">
+        </div>
+
+        <div class="contenedorBotones">
+            <div class="contenedorBoton">
+                <a href="#" onclick="consultarJason(event)">CONSULTAR JSON</a>
+            </div>
+            <div class="contenedorBoton">
+                <a href="#" onclick="limpiarTabla(event)">LIMPIAR DATO</a>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <table id="datos">
+            <tr>
+                <th>Title</th>
+            </tr>
+        </table>
+
+    </main>
+</body>
+</html>
