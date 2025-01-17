@@ -1,0 +1,3 @@
+¿Qué es el algoritmo backpropagation para el entrenamiento de redes neuronales?
+
+Backpropagation es un algoritmo que se emplea para entrenar redes neuronales artificiales con el objetivo de minimizar los errores en el proceso de aprendizaje automático de una máquina.
