@@ -1,0 +1,8 @@
+import {suma, resta, multiplicacion, division} from "./math.js";
+import chalk from "chalk"
+
+console.log(chalk.blue(`suma de 10 y 5 = ${suma(10,5)}`))
+console.log(chalk.blue(`resta de 20 y 8 = ${resta(20,8)}`))
+console.log(chalk.blue(`multiplicacion de 6 y 7 = ${multiplicacion(6,7)}`))
+console.log(chalk.blue(`division de 15 y 3 = ${division(15,3)}`))
+console.log(chalk.red(`division de 15 y 0 = ${division(15,0)}`))
