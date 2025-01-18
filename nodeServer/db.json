@@ -1,0 +1,98 @@
+{
+  "docentes": [
+    {
+      "nombre": "Daniel",
+      "apellido": "Arce",
+      "asignaturas": [
+        {
+          "nombre": "HTML"
+        },
+        {
+          "nombre": "CSS"
+        },
+        {
+          "nombre": "Node.js"
+        }
+      ],
+      "id": "0558"
+    },
+    {
+      "nombre": "Felipe",
+      "apellido": "Medina",
+      "asignaturas": [
+        {
+          "nombre": "Matematicas"
+        },
+        {
+          "nombre": "Biologia"
+        },
+        {
+          "nombre": "Español"
+        }
+      ],
+      "id": "dfd1"
+    },
+    {
+      "nombre": "Samir",
+      "apellido": "Riascos",
+      "asignaturas": [
+        {
+          "nombre": "Postman"
+        },
+        {
+          "nombre": "Laravel"
+        },
+        {
+          "nombre": "Typescript"
+        },
+        {
+          "nombre": "Analitica de datos"
+        }
+      ],
+      "id": "8f5b"
+    }
+  ],
+  "estudiantes": [
+    {
+      "nombre": "Pepito",
+      "apellido": "Perez",
+      "promedio": 7.5,
+      "id": "f902"
+    },
+    {
+      "nombre": "Jose",
+      "apellido": "Palomo",
+      "promedio": 6.5,
+      "id": "8f1f"
+    },
+    {
+      "nombre": "Ana",
+      "apellido": "Mendez",
+      "promedio": 8.2,
+      "id": "85ca"
+    }
+  ],
+  "boot": [
+    {
+      "nombre": "Fullstack",
+      "descripcion": "Desarrollo de aplicaciones web",
+      "duracion": "120 horas",
+      "nivel": "Intermedio",
+      "id": "ca44"
+    },
+    {
+      "nombre": "Fullstack",
+      "descripcion": "Desarrollo de aplicaciones web",
+      "duracion": "120 horas",
+      "nivel": "Avanzados",
+      "id": "e36b"
+    },
+    {
+      "nombre": "Inteligencia artificial",
+      "descripcion": "Desarrollo de aplicaciones web",
+      "duracion": "120 horas",
+      "nivel": "Intermedio",
+      "id": "7528"
+    }
+  ]
+}
