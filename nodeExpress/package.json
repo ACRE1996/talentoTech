@@ -1,0 +1,20 @@
+{
+  "name": "nodeexpress",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "env-var": "^7.5.0",
+    "express": "^4.21.2"
+  }
+}
