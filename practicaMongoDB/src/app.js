@@ -39,6 +39,26 @@ app.get("/usuarios", async (req, res)=>{
     }
 })
 
+app.put("/usuarios/:id", async(req, res)=>{
+    try {
+        const actualizarUsuario = await Usuarios.findByIdAndUpdate(req.params.id, req.body, {new: true})
+    res.status(200).json(actualizarUsuario)
+    } catch (error) {
+        res.status(500).json({message: "error al actualizar usuario", error})
+    }
+    
+})
+
+app.delete("/usuarios/:id", async(req, res)=>{
+    try {
+        await Usuarios.findByIdAndDelete(req.params.id)
+        res.status(200).json("Usuario eliminado")
+    } catch (error) {
+        res.status(500).json({message: "error al eliminar usuario", error})
+    }
+    
+})
+
 const PORT = process.env.PORT
 
 app.listen(PORT, ()=>{
