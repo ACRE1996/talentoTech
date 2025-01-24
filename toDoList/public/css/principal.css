@@ -1,0 +1,10 @@
+.contenidoAgregarTarea{
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+}
+
+label{
+    background-color: aqua;
+}
